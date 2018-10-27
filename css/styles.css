@@ -6,13 +6,34 @@ EDIT ON
 }
 
 div {
-    border-style: dashed;
+
 }
 
 .box {
-  width: 300px;
-  margin: 50px auto;
+  width: 350px;
+  margin: 0px;
   background: #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+  font-size: 24px;
+}
+
+#pad {
+    height: 200px;
+}
+
+#pad2 {
+    height: 25px;
+}
+
+.boxAnswer {
+  width: 90%;
+  margin: 5px auto;
+  background: gray;
   padding: 20px;
   text-align: center;
   font-weight: 900;
@@ -45,6 +66,7 @@ div {
   border-bottom: 10px solid transparent;
   left: -19px;
   top: 6px;
+  font-size: 24px;
 }
 
 .sb3:before {
@@ -70,80 +92,4 @@ div {
   border-top: 10px solid #00bfb6;
   border-bottom: 10px solid transparent;
   right: 19px;
-}
-
-.box1 {
-  width: 300px;
-  margin: 50px auto;
-  border: 4px solid #00bfb6;
-  padding: 20px;
-  text-align: center;
-  font-weight: 900;
-  color: #00bfb6;
-  font-family: arial;
-  position: relative;
-}
-
-.sb5:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 10px solid #00bfb6;
-  border-right: 10px solid transparent;
-  border-top: 10px solid #00bfb6;
-  border-bottom: 10px solid transparent;
-  right: -20px;
-  top: 6px;
-}
-
-.sb5:after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 7px solid #fff;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #fff;
-  border-bottom: 7px solid transparent;
-  right: -11px;
-  top: 10px;
-}
-
-.box2 {
-  width: 300px;
-  margin: 50px auto;
-  border: 4px solid #00bfb6;
-  padding: 20px;
-  text-align: center;
-  font-weight: 900;
-  color: #00bfb6;
-  font-family: arial;
-  position: relative;
-}
-
-.sb9:before {
- content: "";
- width: 0px;
- height: 0px;
- position: absolute;
- border-left: 10px solid transparent;
- border-right: 10px solid transparent;
- border-top: 10px solid #00bfb6;
- border-bottom: 10px solid transparent;
- right: 50%;
- bottom: -23px;
-}
-
-.sb9:after {
- content: "";
- width: 0px;
- height: 0px;
- position: absolute;
- border-left: 10px solid transparent;
- border-right: 10px solid transparent;
- border-top: 10px solid #fff;
- border-bottom: 10px solid transparent;
- right: 50%;
- bottom: -18px;
 }

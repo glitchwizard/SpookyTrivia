@@ -5,21 +5,22 @@ EDIT ON
   padding: 0px;
 }
 
+body {
+    background-color: black;
+}
+
+.jumbotron {
+    background-color: darkgray
+}
+
 div {
 
 }
 
-.box {
-  width: 350px;
-  margin: 0px;
-  background: #00bfb6;
-  padding: 20px;
-  text-align: center;
-  font-weight: 900;
-  color: #fff;
-  font-family: arial;
-  position: relative;
-  font-size: 24px;
+.btn-spooky {
+    background-color: black;
+    border-color: orange;
+    color: orange;
 }
 
 #pad {
@@ -30,10 +31,24 @@ div {
     height: 25px;
 }
 
+.box {
+  width: 350px;
+  margin: 0px;
+  background: darkgray;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+  font-size: 24px;
+}
+
+
 .boxAnswer {
   width: 90%;
   margin: 5px auto;
-  background: gray;
+  background: darkorange;
   padding: 20px;
   text-align: center;
   font-weight: 900;
@@ -61,8 +76,8 @@ div {
   height: 0px;
   position: absolute;
   border-left: 10px solid transparent;
-  border-right: 10px solid #00bfb6;
-  border-top: 10px solid #00bfb6;
+  border-right: 10px solid darkgray;
+  border-top: 10px solid darkgray;
   border-bottom: 10px solid transparent;
   left: -19px;
   top: 6px;

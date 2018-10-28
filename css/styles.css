@@ -5,6 +5,14 @@ EDIT ON
   padding: 0px;
 }
 
+.jumbotron h1 {
+    font-size: 100px;
+}
+
+.jumbotron h2 {
+    font-size: 72px;
+}
+
 body {
     background-color: black;
 }
